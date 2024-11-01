@@ -1,11 +1,14 @@
 AOS.init({
-  offset: 120,       // Distance (in pixels) from the bottom of the page when animations start
+  offset: 200,       // Distance (in pixels) from the bottom of the page when animations start
   delay: 150,          // Delay before animation starts
   duration: 1500,     // Animation duration (in milliseconds)
   easing: 'ease-in-out',    // Easing function for the animation
   once: false,        // Whether animation should happen only once or every time the element comes into view
   mirror: true,     // Whether elements should animate out when scrolling past them
 });
+function ego(e){
+  e.preventDefault
+}
 // scattering letters
 const letters = document.querySelectorAll('#scattering-text span');
 

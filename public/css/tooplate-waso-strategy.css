@@ -27,6 +27,7 @@
   --font-weight-bold:             700;
 }
 
+
 body {
     background: var(--white-color);
     font-family: var(--body-font-family); 
